@@ -19,8 +19,8 @@ This project uses the **EfficientNetV2B2** architecture for real-time emotion de
 
 ## Installation
 
-1. **Download the complete project** from GitHub:
-   - [Download Here](https://github.com/Chorko/Emotion-recognition-using-efficientnet)
+1. **Download the complete project** from Google Drive:
+   - [Download Here](https://drive.google.com/file/d/10gSP8h-uDKh9_0uyjzAieosodZMen3ME/view?usp=drive_link)
 
 2. Clone the repository:
    ```bash
