@@ -1,4 +1,3 @@
-Here's an updated version of the `README.md` that includes suggestions for improving accuracy by experimenting with hyperparameters, as well as using Google Colab for faster training with T4 GPUs:
 
 ---
 
@@ -20,25 +19,29 @@ This project uses the **EfficientNetV2B2** architecture for real-time emotion de
 
 ## Installation
 
-1. Clone the repository:
+1. **Download the complete project** from GitHub:
+   - [Download Here](https://github.com/Chorko/Emotion-recognition-using-efficientnet)
+
+2. Clone the repository:
    ```bash
-   git clone https://github.com/Chorko/Emotion_recognition_using_efficientnet.git
-   cd Emotion_recognition_using_efficientnet
+   git clone https://github.com/Chorko/Emotion-recognition-using-efficientnet.git
+   cd Emotion-recognition-using-efficientnet
    ```
 
-2. Install the required dependencies:
+3. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Set up a virtual environment (optional but recommended):
+4. **Set up a virtual environment (preferred)**:
+   Setting up a virtual environment helps in managing dependencies and avoiding conflicts with system-installed packages:
    ```bash
    python -m venv venv
    source venv/bin/activate  # For Linux/Mac
    .\venv\Scripts\activate   # For Windows
    ```
 
-4. Install [Git LFS](https://git-lfs.github.com/) if needed for handling large files:
+5. Install [Git LFS](https://git-lfs.github.com/) if needed for handling large files:
    ```bash
    git lfs install
    ```
@@ -57,7 +60,7 @@ The dataset is **not** included in this repository. You need to download it manu
 
 ### Organizing the Dataset
 
-After downloading the dataset, place it inside the `FER/` directory as follows:
+After downloading the dataset, install it by placing it inside the `FER/` directory as follows:
 ```
 FER/
 │
@@ -196,10 +199,10 @@ Emotion_recognition_using_efficientnet/
 │
 ├── README.md                               # Project documentation and instructions
 ├── requirements.txt                        # Python dependencies
-└── .gitignore                              # Git ignore file
+├── .gitignore                              # Git ignore file
+└── .gitattributes                          # Git attributes for handling text and large files
 ```
 
 ---
-
 
 ![alt text](<Screenshot 2024-09-14 202334.png>)
